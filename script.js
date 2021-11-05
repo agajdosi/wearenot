@@ -1,4 +1,4 @@
-//var interval = setInterval(loadElement, 1000);
+var interval = setInterval(loadElement, 1000);
 
 function loadElement(){
   loadFrame();
