@@ -24,7 +24,7 @@ h1 {
   left: 20px;
 }
 
-@media all and (max-width: 1024px) {
+@media all and (max-width: 1200px) {
 .iframe{
   -moz-transform: scale(0.5, 0.5); 
   -webkit-transform: scale(0.5, 0.5); 
@@ -38,3 +38,18 @@ h1 {
   transform-origin: top left;
   }
 }
+
+@media all and (max-width: 800px) {
+  .iframe{
+    -moz-transform: scale(0.25, 0.25); 
+    -webkit-transform: scale(0.25, 0.25); 
+    -o-transform: scale(0.25, 0.25);
+    -ms-transform: scale(0.25, 0.25);
+    transform: scale(0.25, 0.25); 
+    -moz-transform-origin: top left;
+    -webkit-transform-origin: top left;
+    -o-transform-origin: top left;
+    -ms-transform-origin: top left;
+    transform-origin: top left;
+    }
+  }
